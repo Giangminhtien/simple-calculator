@@ -1,6 +1,7 @@
 x = 0.0;
 y = 0.0;
-option = 0
+option = 0;
+result = 0;
 
 function calculate() {
   x = document.getElementById("x").value;
