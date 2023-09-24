@@ -19,4 +19,5 @@ function calculate() {
   } else {
     result = x / y;
   }
+  document.getElementById("result").value = result;
 }
