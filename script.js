@@ -11,12 +11,12 @@ function calculate() {
   y = Number(y);
   option = Number(option);
   if (option === 1) {
-    alert(x + y);
+    result = x + y;
   } else if (option === 2) {
-    alert(x - y);
+    result = x - y;
   } else if (option === 3) {
-    alert(x * y);
+    result = x * y;
   } else {
-    alert(x / y);
+    result = x / y;
   }
 }
